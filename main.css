@@ -1,0 +1,77 @@
+.background{
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+.background2{
+    background-image: url("Background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background3{
+    background-image: url("Background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redtext{ 
+    color:rgb(171, 30, 30)
+}
+
+.paragraph {
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Grape Nuts', cursive;
+    color:rgb(0, 0, 0)
+}
+
+.paragraph2 {
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Grape Nuts', cursive;
+    color:rgb(255, 0, 0)
+}
+
+.paragraph3 {
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Grape Nuts', cursive;
+    color:rgb(253, 254, 252)
+}
+
+.container {
+    display: flex;
+min-height: 100vh;
+flex-direction: row;
+}
+
+.btn{
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.btn{
+    background: dodgerblue;
+    color: white;
+}
+.btn--primary:hover{
+    background: rgb(5, 124, 242);
+}
+.btn--secondary{
+    background: darkturquoise;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
